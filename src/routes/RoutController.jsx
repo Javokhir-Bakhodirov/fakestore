@@ -7,11 +7,13 @@ const Products = lazy(() => import("./products/Products"));
 const Login = lazy(() => import("./login/Login"));
 const Profile = lazy(() => import("./profile/Profile"));
 import Loading from "../components/loading/Loading";
+import { useLocation } from "react-router-dom";
 
 const RoutController = () => {
+	const location = useLocation();
 	return (
 		<>
-			<Nav />
+			{location.pathname !== "/login" && <Nav />}
 
 			<Routes>
 				<Route
