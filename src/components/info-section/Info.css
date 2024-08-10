@@ -1,0 +1,39 @@
+.newArr__list {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.newArr__title {
+	text-align: center;
+	font-size: 48px;
+	font-weight: 700;
+	line-height: 57.6px;
+	text-transform: uppercase;
+}
+
+.newArr-section {
+	padding-top: 100px;
+}
+
+.newArr__btn {
+	width: 218px;
+	padding: 16px 54px 16px 54px;
+	border-radius: 62px;
+	border: 1px solid black;
+	color: #000;
+	text-align: center;
+	margin-top: 45px;
+}
+
+.btn-div {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.mostPop {
+	margin-top: 50px;
+	border-top: 1px solid gray;
+	padding-top: 50px;
+}

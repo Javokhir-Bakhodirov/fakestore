@@ -1,0 +1,85 @@
+/* Container */
+.containers {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	background-color: #f4f4f4;
+	padding: 20px;
+}
+
+/* Login Box */
+.login__box {
+	width: 100%;
+	max-width: 400px;
+	background-color: #ffffff;
+	padding: 40px;
+	border-radius: 10px;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+	text-align: center;
+}
+
+/* Logo */
+.logo__img-box {
+	display: inline-block;
+	margin-bottom: 30px;
+}
+
+.logo__img-box img {
+	width: 150px;
+}
+
+/* Form */
+.form {
+	width: 100%;
+}
+
+/* Input Wrapper */
+.input-wrapper {
+	margin-bottom: 20px;
+}
+
+/* Input Fields */
+.input {
+	width: 100%;
+	padding: 10px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	font-size: 16px;
+	box-sizing: border-box;
+}
+
+.input:focus {
+	border-color: #007bff;
+	outline: none;
+	box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+}
+
+/* Submit Button */
+button[type="submit"] {
+	width: 100%;
+	padding: 12px;
+	border: none;
+	border-radius: 5px;
+	background-color: #007bff;
+	color: #fff;
+	font-size: 18px;
+	font-weight: 600;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+	background-color: #0056b3;
+}
+
+/* Responsive Design */
+@media (max-width: 576px) {
+	.login__box {
+		padding: 30px;
+	}
+
+	button[type="submit"] {
+		font-size: 16px;
+	}
+}
